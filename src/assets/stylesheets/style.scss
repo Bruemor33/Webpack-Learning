@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700');
+
+$variable: red;
+$brand-purple: rgb(145,140,223);
+$brand-green: rgb(153,251,198);
+$font-size: 5rem;
+$font-type: "Roboto", sans-serif;
+
+body {
+    background-color: $brand-purple;
+    height: 100vh;
+    color: $brand-green;
+    font-size: $font-size;
+    font-weight: 700;
+    font-family: $font-type;
+}
+

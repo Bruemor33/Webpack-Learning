@@ -1,7 +1,7 @@
-require('./style.scss');
+require('./assets/stylesheets/style.scss');
 
 const dress = () => {
-    document.write("I like my dress a lot, like got damn!");
+    document.write("I'm doing webpack... I think...");
 };
 
 dress();

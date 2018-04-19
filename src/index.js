@@ -1,15 +1,7 @@
 require('./assets/stylesheets/style.scss');
 
-const dress = () => {
-    document.write("I'm doing webpack... I think...");
-};
+import React from 'react';
+import ReactDOM from 'react-dom';
+import App from './app/App.jsx';
 
-dress();
-
-class Car {
-    manufacturer(car) {
-        documnet.write(`I have a ${car}`)
-    };
-};
-
-const bmw = new Car;
+ReactDOM.render(<App />, document.getElementById('root'));
